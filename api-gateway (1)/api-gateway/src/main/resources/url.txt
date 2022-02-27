@@ -1,0 +1,23 @@
+Some of these URLs may be complex to write by hand:
+
+Refer back to here if you have problems in the next steps.
+
+Initial (API-GATEWAY), to enable this application call/run these  url's we need set up our application properties
+
+- http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+
+- http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+I can call any microservices with registered with eureka through the Api-Gateway
+
+Custom Routes (URLS after custom them in ApiGatewayApplication / the last urls)
+
+- http://localhost:8765/currency-exchange/from/USD/to/INR
+
+- http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
