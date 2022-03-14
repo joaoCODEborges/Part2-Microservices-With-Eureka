@@ -10,9 +10,9 @@ Currency Conversion Service
 http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
 
-Eureka Server
-http://localhost:8761/
+Can see all server up and running together in Eureka Server: http://localhost:8761/
 
 
-
+Zipkin Server
+http://localhost:9411/zipkin/
 
