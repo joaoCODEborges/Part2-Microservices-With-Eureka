@@ -1,5 +1,5 @@
 
-This part of the course will be served to manage and explore about Docker containers for all microservices for this application, using Zipkin and Sleuth tools as architecture for this app, with Spring Rabbit framework, implementing a queue for our distributed server between DB and Microservices.
+This part of the course will be served to manage and explore about Docker containers for all microservices for this application, using Zipkin and Sleuth tools for the architecture for this app, with Spring Rabbit framework, the idea is implement a queue for our distributed server between DB and Microservices.
 
 # Part2-Microservices-With-Eureka
 
