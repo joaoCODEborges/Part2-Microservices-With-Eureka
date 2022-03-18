@@ -13,3 +13,6 @@ Note: Run first NamingServer(eureka), and after the Currency Exchange service an
 
 Launch Docker zipkin url
 http://localhost:9411/zipkin/
+
+Run container Docker command:
+docker run -p 8000:8000 in28min/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
