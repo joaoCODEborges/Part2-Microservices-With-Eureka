@@ -12,7 +12,7 @@ Initial (API-GATEWAY), to enable this application call/run these  url's we need 
 
 I can call any microservices with registered with eureka through the Api-Gateway
 
-Custom Routes (URLS after custom them in ApiGatewayApplication / the last urls)
+Custom Routes (URLS after custom them in ApiGatewayApplication / the last updated urls)
 
 - http://localhost:8765/currency-exchange/from/USD/to/INR
 
