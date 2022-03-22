@@ -8,6 +8,17 @@ services:
       - "8000:8000"
     networks:
       - currency-network
+    depends_on:
+      - naming-server
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://naming-server:8761/eureka
+
+  naming-server:
+    image: in28min/mmv2-naming-server:0.0.1-SNAPSHOT
+    ports:
+      - "8761:8761"
+    networks:
+      - currency-network
 
 networks:
   currency-network:

@@ -63,6 +63,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+						<name> <!-- setup a container -->
+							in28min/mmv2-${project.artifactId}:${project.version}
+						</name>
+					</image> <!-- if the images not present pull them, otherwise use the images presented -->
+					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
