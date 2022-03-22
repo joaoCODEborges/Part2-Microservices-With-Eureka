@@ -28,5 +28,15 @@ services:
       - currency-network
     environment:
       eureka.client.serviceUrl.defaultZone: http://naming-server:8761/eureka
+
+  api-gateway:
+    image: in28min/mmv2-api-gateway:0.0.1-SNAPSHOT
+    ports:
+      - "8765:8765"
+    networks:
+      - currency-network
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://naming-server:8761/eureka
+
 networks:
   currency-network:
